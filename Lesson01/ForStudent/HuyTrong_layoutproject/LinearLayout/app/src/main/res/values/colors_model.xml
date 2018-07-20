@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#085EAB</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+    <color name="dot_dark_screen5">#000000</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+    <color name="dot_light_screen5">#ffffff</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+        <item>@color/dot_light_screen5</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_dark_screen5</item>
+    </array>
+
+    <color name="gray_light_light">#7aeaeaea</color>
+    <color name="gray">#ffc5c5c5</color>
+    <color name="white">#ffffffff</color>
+    <color name="gray_hard">#ff414042</color>
+    <color name="gray_bold">#ff959595</color>
+    <color name="text_hint">#ff808285</color>
+    <color name="transparent">#00000000</color>
+    <color name="green">#ff4ab969</color>
+    <color name="green_dark">#ff2b8941</color>
+    <color name="colorGreen">#4AB969</color>
+    <color name="colorGreen1">#FF14A895</color>
+    <color name="dark_lighter">#272B31</color>
+    <color name="list_divider">#ffd1d1d1</color>
+    <color name="light_gray">#ffededed</color>
+    <color name="blue">#ff085eab</color>
+    <color name="bg_list_divider">#ffe9e9e9</color>
+    <color name="gray_light">#ffefefef</color>
+    <color name="red">#ffff3a2f</color>
+    <color name="gray_transparent">#80aaaaaa</color>
+    <color name="green_bold">#ff009688</color>
+    <color name="yellow">#fff700</color>
+    <color name="blue_dark">#ff025095</color>
+    <color name="white_transparent">#80ffffff</color>
+    <color name="blue_light">#dbedfc</color>
+</resources>

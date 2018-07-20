@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:background="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:background="@drawable/shape_text"
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="To" />
+
+    <EditText
+        android:background="@drawable/shape_text"
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:background="@drawable/shape_text"
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:inputType="textPersonName"
+        android:text="Message" />
+
+    <Button
+        android:textColor="@android:color/white"
+        android:layout_marginEnd="6dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Send Mail" />
+</LinearLayout>

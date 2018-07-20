@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow
+        android:layout_weight="1"
+        android:background="@drawable/asia">
+        <TextView
+            android:textColor="@color/white"
+            android:text="Toyota"
+            android:textSize="30dp"
+            android:layout_gravity="bottom"/>
+        <TextView
+            android:textColor="@color/white"
+            android:text="19.376 tin rao"
+            android:layout_marginLeft="200dp"
+            android:layout_gravity="bottom"/>
+    </TableRow>
+    <TableRow
+        android:layout_weight="1"
+        android:background="@drawable/changan">
+        <TextView
+            android:textColor="@color/white"
+            android:text="Kia"
+            android:textSize="30dp"
+            android:layout_gravity="bottom"/>
+        <TextView
+            android:textColor="@color/white"
+            android:text="12.053 tin rao"
+            android:layout_marginLeft="200dp"
+            android:layout_gravity="bottom"/>
+    </TableRow>
+    <TableRow
+        android:layout_weight="1"
+        android:background="@drawable/baic">
+        <TextView
+            android:textColor="@color/white"
+            android:text="Ford"
+            android:textSize="30dp"
+            android:layout_gravity="bottom"/>
+        <TextView
+            android:textColor="@color/white"
+            android:text="9.441 tin rao"
+            android:layout_marginLeft="200dp"
+            android:layout_gravity="bottom"/>
+    </TableRow>
+</TableLayout>

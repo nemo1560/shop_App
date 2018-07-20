@@ -1,0 +1,86 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Base Style -->
+    <style name="baseText">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@color/gray_hard</item>
+    </style>
+
+    <!-- excercise 02 begin -->
+    <style name="text_normal">
+        <item name="android:textSize">@dimen/text_normal</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="styleTextInfo" parent="@style/text_normal.gray">
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">left</item>
+        <item name="android:padding">10.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">false</item>
+    </style>
+
+    <style name="text_normal.green" parent="@style/text_normal">
+        <item name="android:textColor">@color/green</item>
+    </style>
+
+    <style name="text_normal.gray" parent="@style/text_normal">
+        <item name="android:textColor">@color/gray_hard</item>
+    </style>
+
+    <style name="text_normal.bold" parent="@style/text_normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_normal.blue" parent="@style/text_normal">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <style name="text_normal.bold.green" parent="@style/text_normal.bold">
+        <item name="android:textColor">@color/green</item>
+    </style>
+
+    <style name="styleListDivider">
+        <item name="android:background">@color/bg_list_divider</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+    </style>
+    <!-- excercise 02 end -->
+
+    <!-- Text style -->
+    <style name="textH2Title" parent="baseText">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textSize">@dimen/d20</item>
+        <item name="android:textColor">@color/green_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Button Style -->
+    <style name="buttonStyle01" parent="baseText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/slt_button_default</item>
+        <!--<item name="android:drawableLeft">@mipmap/ic_search_left_menu</item>-->
+        <item name="android:drawablePadding">3dp</item>
+    </style>
+
+</resources>
