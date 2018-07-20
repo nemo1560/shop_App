@@ -1,35 +1,49 @@
 <LinearLayout android:layout_width="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:text="User"
+            android:id="@+id/ediText_1"
+            android:background="@drawable/style_textview"
+            style="@style/EditText"/>
+
+        <EditText
+            android:id="@+id/ediText_2"
+            android:text="Pass"
+            android:background="@drawable/style_textview"
+            style="@style/EditText"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/ediText_3"
+        style="@style/EditText"
+        android:background="@drawable/style_textview"
+        android:text="Write your content" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingTop="10dp">
+        android:padding="10dp"
+        android:background="@drawable/style_textview">
 
-        <EditText
-            android:text="User"
-            android:id="@+id/ediText_1"
-            android:layout_width="match_parent"
+        <Button
+            android:id="@+id/btn"
+            android:text="OK"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.1" />
-
-        <EditText
-            android:id="@+id/ediText_2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.1"
-            android:text="Pass" />
+            android:layout_gravity="end"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/press_btn" />
     </LinearLayout>
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
 
 </LinearLayout>

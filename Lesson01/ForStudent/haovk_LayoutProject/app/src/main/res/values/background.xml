@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Background">
+        <item name="android:background">@android:color/holo_blue_light</item>
+    </style>
+</resources>
