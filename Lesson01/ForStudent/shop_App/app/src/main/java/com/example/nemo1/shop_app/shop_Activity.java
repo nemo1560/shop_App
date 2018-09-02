@@ -8,9 +8,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
-import android.widget.Toast;
 
-import com.example.nemo1.shop_app.shop_core.fragment_album;
+import com.example.nemo1.shop_app.shop_core.fragment_book;
 import com.example.nemo1.shop_app.shop_core.fragment_film;
 import com.example.nemo1.shop_app.shop_core.fragment_music;
 
@@ -26,17 +25,17 @@ public class shop_Activity extends AppCompatActivity {
                 case R.id.navigation_music:
                     fragment = new fragment_music();
                     callFragment(fragment);
-                    Toast.makeText(getApplicationContext(),"Choose music, plaese",Toast.LENGTH_SHORT).show();
+                    navigation.setBackgroundColor(getResources().getColor(R.color.music_navigation));
                     return true;
                 case R.id.navigation_film:
                     fragment = new fragment_film();
                     callFragment(fragment);
-                    Toast.makeText(getApplicationContext(),"Choose film, plaese",Toast.LENGTH_SHORT).show();
+                    navigation.setBackgroundColor(getResources().getColor(R.color.film_navigation));
                     return true;
                 case R.id.navigation_album:
-                    fragment = new fragment_album();
+                    fragment = new fragment_book();
                     callFragment(fragment);
-                    Toast.makeText(getApplicationContext(),"Choose album, plaese",Toast.LENGTH_SHORT).show();
+                    navigation.setBackgroundColor(getResources().getColor(R.color.album_navigation));
                     return true;
             }
             return false;
@@ -50,11 +49,13 @@ public class shop_Activity extends AppCompatActivity {
         fragmentTransaction.commit();
     }
 
+    private BottomNavigationView navigation;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shop_);
-        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
+        navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
         /*
         * auto call fragment_music when unselected navigation-bottom.

@@ -33,6 +33,9 @@ public class fragment_film extends Fragment{
         View view = inflater.inflate(R.layout.fragment_film,container,false);
         gridView = view.findViewById(R.id.fragment_film);
         eFilmList = new mFilm().geteFilmList();
+        /*
+        * R.layout.gridview_film => callback layout row customListView to show in adapter.
+        * */
         adapter_film = new adapter_film(getContext(),R.layout.gridview_film,eFilmList);
         gridView.setAdapter(adapter_film);
         return view;

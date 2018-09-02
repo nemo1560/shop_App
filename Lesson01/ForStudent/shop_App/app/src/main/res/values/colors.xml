@@ -3,4 +3,7 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="music_navigation">#8eb572</color>
+    <color name="film_navigation">#66cdaa</color>
+    <color name="album_navigation">#5a80b4</color>
 </resources>
