@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_music"
+        android:icon="@drawable/music"
+        android:title="@string/title_music"/>
+    <item
+        android:id="@+id/navigation_film"
+        android:icon="@drawable/film"
+        android:title="@string/title_film"/>
+    <item
+        android:id="@+id/navigation_album"
+        android:icon="@drawable/album"
+        android:title="@string/title_album"/>
+</menu>
