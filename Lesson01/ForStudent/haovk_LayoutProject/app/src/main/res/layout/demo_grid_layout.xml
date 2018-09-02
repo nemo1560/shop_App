@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:columnCount="2"
+    android:rowCount="4">
+
+    <ImageView
+        android:id="@+id/imgView1"
+        android:layout_width="210dp"
+        android:layout_height="150dp"
+        android:background="@android:color/holo_red_light"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="1"
+        android:contentDescription="@string/todo" />
+    <ImageView
+        android:id="@+id/imgView2"
+        android:layout_width="210dp"
+        android:layout_height="150dp"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="1"
+        android:contentDescription="@string/todo" />
+    <ImageView
+        android:id="@+id/imgView3"
+        android:layout_width="210dp"
+        android:layout_height="150dp"
+        android:background="@android:color/holo_orange_light"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="1"
+        android:contentDescription="@string/todo" />
+    <ImageView
+        android:id="@+id/imgView4"
+        android:layout_width="210dp"
+        android:layout_height="150dp"
+        android:background="@android:color/holo_purple"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="1"
+        android:contentDescription="@string/todo" />
+    <ImageView
+        android:id="@+id/imgView5"
+        android:layout_width="210dp"
+        android:layout_height="150dp"
+        android:background="@android:color/holo_green_dark"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="1"
+        android:contentDescription="@string/todo" />
+    <ImageView
+        android:id="@+id/imgView6"
+        android:layout_width="210dp"
+        android:layout_height="150dp"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="1"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/imgView7"
+        android:layout_width="210dp"
+        android:layout_height="150dp"
+        android:background="@android:color/tertiary_text_light"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="1"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/imgView8"
+        android:layout_width="210dp"
+        android:layout_height="150dp"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@android:color/black"
+        android:contentDescription="@string/todo" />
+
+
+</GridLayout>

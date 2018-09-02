@@ -2,4 +2,6 @@
     <string name="app_name">haovk_LayoutProject</string>
     <string name="username">Username</string>
     <string name="todo">TODO</string>
+    <string name="doing1">doing1</string>
+    <string name="doing">doing</string>
 </resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:rowCount="2"
+    android:columnCount="5"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/btn1"
+        android:text="btn1"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="1"
+        />
+
+    <Button
+        android:id="@+id/btn2"
+        android:text="btn2"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="1"
+        />
+    <Button android:id="@+id/btn3"
+        android:text="btn2"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="1"
+        />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:text="btn2" />
+
+    <Button android:id="@+id/btn5"
+        android:text="btn2"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="1"
+        />
+
+    <Button android:id="@+id/btn6"
+        android:text="btn2"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="1"
+        />
+
+    <!-- android:layout_gravity: phu day cot da span lai voi nhau -->
+    <Button android:id="@+id/btn7"
+        android:layout_width="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:text="btn2"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="2"
+        />
+    <Button android:id="@+id/btn8"
+        android:text="btn2"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="1"
+        />
+    <Button android:id="@+id/btn9"
+        android:text="btn2"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="1"
+        />
+</GridLayout>
