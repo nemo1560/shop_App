@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/shape"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/header2"
+            android:textAlignment="textStart"
+            android:paddingLeft="10dp"
+            style="@style/style_text"
+            android:background="@drawable/shape_color_organe"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textSize="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:textAlignment="textStart"
+            style="@style/style_text"/>
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:rowCount="2"
+            android:columnCount="2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+            <TextView
+                android:id="@+id/textView_1"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Nhập số A"
+                style="@style/style_text" />
+            <EditText
+                android:id="@+id/editText_1"
+                android:layout_height="wrap_content"
+                android:layout_width="250dp"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shape_edit_text" />
+            <TextView
+                android:id="@+id/textView_2"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Nhập số B"
+                style="@style/style_text"/>
+            <EditText
+                android:id="@+id/editText_2"
+                android:layout_height="wrap_content"
+                android:layout_width="250dp"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/shape_edit_text"
+                />
+            <TextView
+                android:id="@+id/textView_3"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/option"
+                style="@style/style_text"/>
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="10dp"
+                android:dropDownSelector="@color/text"
+                android:spinnerMode="dropdown"></Spinner>
+        </GridLayout>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TableRow android:gravity="end"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp">
+                <Button
+                    android:id="@+id/btnTinhToan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:background="@drawable/shape_color_organe"
+                    android:text="Tính toán" />
+                <Button
+                    android:id="@+id/btnThoat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_color_organe"
+                    android:text="Thoát" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

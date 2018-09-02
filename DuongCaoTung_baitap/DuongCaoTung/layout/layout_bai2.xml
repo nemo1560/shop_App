@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/body_login"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/header_login"
+        android:paddingLeft="15dp"
+        android:text="Chương trình tính toán"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Vui lòng nhập đầy đủ thông tin:"
+        android:padding="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="-Nhập số a:"
+
+            />
+
+        <EditText
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_border" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="-Nhập số b" />
+
+        <EditText
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_border" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="-Chọn phép tính" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingRight="5dp">
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:background="@drawable/shape_button"
+            android:text="Tính toán" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:background="@drawable/shape_button"
+            android:text="Thoát" />
+    </LinearLayout>
+
+</LinearLayout>

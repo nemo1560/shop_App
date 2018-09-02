@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2e2e2">
+
+    <ImageView
+        android:id="@+id/img_film"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:padding="3dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/darkspiderman" />
+
+    <TextView
+        android:id="@+id/tv_filmName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/img_film"
+        android:text="Film Name"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_textRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_filmName"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/img_film"
+        android:text="Rating: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_filmName"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/tv_textRate"
+        android:text="5.6"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_textRate"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/img_film"
+        android:text="2009"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_renge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_year"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/img_film"
+        android:text="Renge"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/lineLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/img_film"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:background="#efedea"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Whatch Now"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Trailer"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:background="#d0d1d1"
+        android:id="@+id/tv_detailFilm"
+        android:layout_below="@id/lineLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="The world's best-selling grammar series for learners of English.
+                    \n Raymond Murphy's classic reference and practice book for learners of English at intermediate (B1-B2) level.
+                    \n Perfect for self-study, but also ideal for supplementary grammar activities in the classroom
+                    \n The fourth edition is available as a printed book, an eBook with audio, a mobile app for iOS and Android, and online with a Learning Management System for educational institutions
+                    \n Arranged in a tried-and-trusted, easy to use format, with explanations of grammar points on each left-hand page and exercises to check understanding on the right
+                    \n This book has been used by millions of language learners and teachers around the world."
+        android:textColor="#3169f6"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/shape">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_color_organe"
+            style="@style/style_text"
+            android:textAlignment="center"
+            android:padding="5dp"
+            android:text="Chương trình dăng ký tài khoản sinh viên" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thông tin sinh vien: "
+                android:textAlignment="textStart"
+                style="@style/style_text"/>
+        </LinearLayout>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="- Mã sinh viên: "
+                    style="@style/style_text"/>
+
+                <EditText
+                    android:id="@+id/txtMaSV"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="2"
+                    android:background="@drawable/shape_edit_text_hao" />
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="- Họ và tên: "
+                    style="@style/style_text"/>
+                <EditText
+                    android:id="@+id/txtTen"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="@drawable/shape_edit_text_hao"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.4"
+                    android:text="- Giới tính: "
+                    style="@style/style_text"/>
+                <RadioGroup
+                    android:id="@+id/chkGroup"
+                    android:layout_weight="1.2"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <RadioButton
+                        android:layout_weight=".1"
+                        android:id="@+id/chkBoxNam"
+                        android:text="Nam"
+                        style="@style/style_text"/>
+                    <RadioButton
+                        android:layout_weight="1"
+                        android:id="@+id/chkBoxNu"
+                        android:text="Nữ"
+                        style="@style/style_text"/>
+                </RadioGroup>
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="- Ngày sinh: "
+                    style="@style/style_text"/>
+                <EditText
+                    android:id="@+id/txtNgaySinh"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:hint="dd/mm/yyyy"
+                    android:background="@drawable/shape_edit_text_hao"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="- Điện thoại: "
+                    style="@style/style_text"/>
+                <EditText
+                    android:id="@+id/txtDienThoai"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:inputType="number"
+                    android:background="@drawable/shape_edit_text_hao"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="- Email: "
+                    style="@style/style_text"/>
+                <EditText
+                    android:id="@+id/txtEmail"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:inputType="textEmailAddress"
+                    android:background="@drawable/shape_edit_text_hao"/>
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:text="- Số CMND: "
+                    style="@style/style_text"/>
+                <EditText
+                    android:id="@+id/txtCMND"
+                    android:layout_marginRight="10dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:inputType="number"
+                    android:background="@drawable/shape_edit_text_hao"/>
+            </TableRow>
+            <TableRow
+                android:layout_margin="10dp"
+                android:gravity="right"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnThem"
+                    style="@style/style_text"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/sprbutton"
+                    android:text="Thêm mới"
+                    android:textAlignment="center" />
+                <Button
+                    android:id="@+id/btnThoat"
+                    style="@style/style_text"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sprbutton"
+                    android:baselineAligned="false"
+                    android:text="Thoát"
+                    android:textAlignment="center" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

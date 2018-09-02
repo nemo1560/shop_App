@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_avata"
+        android:scaleType="fitXY"
+        android:padding="5dp"
+        android:src="@drawable/darkspiderman"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+    <TextView
+        android:id="@+id/txt_filmName"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/img_avata"
+        android:text="Film Name"
+        android:textSize="25sp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txt_textRate"
+        android:text="Rating: "
+        android:layout_below="@id/txt_filmName"
+        android:layout_toRightOf="@id/img_avata"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txt_rating"
+        android:text="5.6"
+        android:layout_below="@id/txt_filmName"
+        android:layout_toRightOf="@+id/txt_textRate"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txt_year"
+        android:layout_below="@id/txt_textRate"
+        android:layout_toRightOf="@id/img_avata"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="2010"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txt_renge"
+        android:text="Renge"
+        android:layout_below="@id/txt_year"
+        android:layout_toRightOf="@id/img_avata"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
